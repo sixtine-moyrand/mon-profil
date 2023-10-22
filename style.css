@@ -1,0 +1,87 @@
+/* Colors and Fonts */
+body{
+	font-family: 'Playfair Display', serif; ;
+	color: #172a3a;
+	font-size: 18 px;
+	background-color: #ccd5e1;
+	letter-spacing: 1px;
+	}
+
+h1,h2,h3 {
+	font-family:'Montserrat', sans-serif;
+	font-weight: bolder;
+}
+h1{
+	color: #87250d;
+	font-size: 32 px;
+}
+h2{
+	color: #508991;
+	font-size: 32 px;
+}
+
+a{
+	text-decoration: none;
+	color: #004346;
+	letter-spacing: 3px;
+}
+a:hover{
+	color: #de541e;
+}
+
+ul{
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+img{
+	width: 100px;
+	height: 100px;
+}
+
+/* Custom design (99% of the design) */
+.container {
+	width: 800px;
+	margin: 80px auto;
+}
+
+@media (max-width: 760px){
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px){
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	padding: 30px;
+	margin: 30px;
+    background: #f0edee;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px rgb(0,0,0,0.2);
+    text-align: center;
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+
+.list-inline li { 
+	display: inline;
+	padding: 10px;
+
+}
+
+/* Design ajustment using id (1% of the design) */
+#profile {
+	border-radius: 50%;
+}
+
+#introduction p {
+	margin: 40px;
+}
